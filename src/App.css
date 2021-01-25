@@ -1,0 +1,25 @@
+wrapper {
+    /* height: 100%; */
+    display: grid;
+    grid-template-areas: 'h' 'm' 'f';
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-auto-rows: 300px; */
+    /* grid-auto-columns:1%0px; */
+    grid-gap: 1%;
+    margin: 1%;
+    align-items: center;
+}
+.headers {
+    grid-area: h;
+    background-color: aqua;
+}
+.footer {
+    grid-area: f;
+    background-color: greenyellow;
+}
+.main {
+    /* height: 700px; */
+    grid-area: m;
+    background-color: brown;
+}
